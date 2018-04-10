@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<cheques xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:noNamespaceSchemaLocation="data-schema.xsd">
+
+	<header>
+		<shop_name type="Магазин">ООО "Фудмаркет"</shop_name>
+		<shop_address>
+			<city>г.Киев</city>
+			<street>ул.Кудряшова, 1</street>
+		</shop_address>
+		НН <pn>363872326554</pn>
+		тел. <phone>0-800-50-15-05</phone>
+		<cashier cashDesk="7744">Толоконце А.С.</cashier>
+	</header>
+	
+	<body>
+		<item id="235250">
+			<name>Мука кукурузная</name>
+			<quantity unit="шт">1</quantity>
+			<price currency="UAH" type="retail">6.04</price>
+			<total>6.04</total>
+		</item>
+		<item id="235251">
+			<name>Мука пшеничная</name>
+			<quantity unit="шт">2</quantity>
+			<price currency="UAH" type="retail">5.42</price>
+			<total>10.84</total>
+		</item>
+	</body>
+
+	<footer>
+		<card>
+			<discountCard>111</discountCard>
+			<!-- либо, либо -->
+			<!-- <bonusCard>111</bonusCard> -->
+		</card>
+		<taxPercent value="20" />
+		<dateTime>2013-10-11T18:27:59</dateTime>
+		<zn>З.Н.
+			<number>1008669</number>
+			<date>2010-01-12</date>
+		</zn>
+	</footer>
+
+	<!-- Словари -->
+	<dics>
+		<dic name="currency">
+			<currency value="UAH" />
+			<currency value="USD" />
+		</dic>
+		<dic name="unit">
+			<unit value="шт" />
+			<unit value="кг" />
+		</dic>
+	</dics>
+	
+</cheques>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

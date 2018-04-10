@@ -1,0 +1,5 @@
+﻿Валидатор XML-Schema
+http://schneegans.de/sv/
+
+Валидатор XML + XML-Schema
+http://tools.decisionsoft.com/schemaValidate/
